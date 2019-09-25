@@ -25,6 +25,11 @@ def Madlibs (debug = False):
             print("\n") 
             input("press enter to continue")
             
+        elif choice == "2":
+            print(Story2())
+            print("\n") 
+            input("press enter to continue")
+            
         elif choice == "unicorn":
             print("You have found my magical land")
             input("press enter to continue")

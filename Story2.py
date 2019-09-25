@@ -1,7 +1,7 @@
 from Getters import *
 
-def Story1(debug = False):
-    if debug: print("Story1 Function") 
+def Story2(debug = False):
+    if debug: print("Story2 Function") 
 
     print("\n")
    
