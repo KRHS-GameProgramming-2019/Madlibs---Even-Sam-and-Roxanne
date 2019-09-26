@@ -95,7 +95,13 @@ swearList =[ "poop",
             "shit",
             "fuck",
             "lolfap",
-            "bitch"
+            "bitch",
+            "faggot",
+            "fag",
+            "fucktard",
+            "bitch ass hoe",
+            "puurrpdrank"
+            
 ]
 
 
