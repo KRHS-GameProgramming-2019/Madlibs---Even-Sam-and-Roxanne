@@ -108,7 +108,8 @@ swearList =[ "poop",
             "pee",
             "shit",
             "fuck",
-            "lolfap"
+            "lolfap",
+            "bitch"
 ]
 
 
