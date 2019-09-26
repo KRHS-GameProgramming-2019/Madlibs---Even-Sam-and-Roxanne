@@ -54,6 +54,20 @@ def getWord(prompt, debug = False):
         
     return word  
     
+def getPlace(prompt, debug = False):
+    if debug: print("getMenuOption Function")
+    
+    goodInput = False
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print ("don't use language like that")
+        
+    return word  
+    
 def getSport(prompt, debug = False):
     if debug: print("getgetSport Function")
     
