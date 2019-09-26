@@ -22,13 +22,14 @@ def getMenuOption(debug = False):
                 option = "1"
                 goodInput = True
                 
-         elif (option == "2" or 
-            option == "story 2" or 
-            option == "story2" or 
-            option == "two" or
-            option == "story two"):
+        elif (option == "2" or
+             option == "story 2" or 
+             option == "story2" or 
+             option == "two" or
+             option == "story two"):
                 option = "2"
                 goodInput = True
+                
                 
         elif (option == "u"):
                 option = "unicorn"
