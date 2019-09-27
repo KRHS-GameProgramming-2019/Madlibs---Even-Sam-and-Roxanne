@@ -100,13 +100,18 @@ def getAnimal(prompt, debug = False):
     
     goodInput = False
     
-    Animal = ["soccer",
-              "football",
-              "hockey",
-              "wrestling",
-              "field hockey",
-              "skiing",
-              "nordic"]
+    Animal = ["dog",
+             "cat",
+             "cow",
+             "frog",
+             "toad",
+             
+             
+             
+             
+             
+        
+    ]
     
     while not goodInput:
         word = input(prompt)
