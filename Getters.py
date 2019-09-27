@@ -69,7 +69,7 @@ def getPlace(prompt, debug = False):
     return word  
     
 def getSport(prompt, debug = False):
-    if debug: print("getgetSport Function")
+    if debug: print("getSport Function")
     
     goodInput = False
     
@@ -92,6 +92,33 @@ def getSport(prompt, debug = False):
             goodInput= False
             print("\n")
             print ("sorry, I don't know that sport.")
+        
+    return word  
+    
+def getAnimal(prompt, debug = False):
+    if debug: print("getAnimal Function")
+    
+    goodInput = False
+    
+    Animal = ["soccer",
+              "football",
+              "hockey",
+              "wrestling",
+              "field hockey",
+              "skiing",
+              "nordic"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print("\n")
+            print ("don't use language like that")
+        elif word.lower() not in Animal:
+            goodInput= False
+            print("\n")
+            print ("sorry, I don't know that Animal.")
         
     return word  
 
