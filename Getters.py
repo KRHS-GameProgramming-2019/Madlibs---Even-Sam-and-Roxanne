@@ -120,7 +120,7 @@ def getAnimal(prompt, debug = False):
             goodInput= False
             print("\n")
             print ("don't use language like that")
-        elif word.lower() not in Animal:
+        elif word.lower() not in Animal-:
             goodInput= False
             print("\n")
             print ("sorry, I don't know that Animal.")
@@ -147,7 +147,7 @@ swearList =[ "poop",
             "fucktard",
             "bitch ass hoe",
             "puurrpdrank",
-            "Kyle Goodwin",
+            "kyle goodwin",
             "anus",
             "foreskin",
             "nigger",
