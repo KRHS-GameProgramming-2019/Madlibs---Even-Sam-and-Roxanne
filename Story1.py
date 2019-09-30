@@ -10,7 +10,7 @@ def Story1(debug = False):
     Place1= getPlace("enter a place (proper noun) ")
     animal1 = getAnimal("enter an animal ")
     Teacher1 = getTeacher("enter a teachers name ")
-    grade1 = getGrade ("enter a grade A-F")
+    grade1 = getGrade ("enter a grade A-F: ")
     
     out = "\n"
     out += "\n"
