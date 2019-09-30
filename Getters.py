@@ -105,6 +105,20 @@ def getAnimal(prompt, debug = False):
              "cow",
              "frog",
              "toad",
+             "bear",
+             "peacock",
+             "fish",
+             "penguin",
+             "owl",
+             "fox",
+             "goose",
+             "lion",
+             "llama",
+             "",
+             "",
+             "",
+             "",
+             "",
              
              
              
