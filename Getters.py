@@ -160,7 +160,7 @@ def getGrade(prompt, debug = False):
             goodInput= False
             print("\n")
             print ("don't use language like that")
-        elif word.lower() not in teachers:
+        elif word.lower() not in grades:
             goodInput= False
             print("\n")
             print ("sorry, I don't know that Grade.")
