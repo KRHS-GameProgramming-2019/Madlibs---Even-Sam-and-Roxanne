@@ -103,18 +103,109 @@ def getSport(prompt, debug = False):
         
     return word  
     
+def getTeacher(prompt, debug = False):
+    if debug: print("getTeacher Function")
+    
+    goodInput = False
+    
+    teachers = ["mrs. hill",
+                "mr. spooner",
+                "mrs. Ellis",
+                "mrs. hall",
+                "mrs. valerio",
+                "mr. anderson",
+                "mrs. skov",
+                "mr. selby",
+                "mrs. dwyer",
+                "mr. girard",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print("\n")
+            print ("don't use language like that")
+        elif word.lower() not in teachers:
+            goodInput= False
+            print("\n")
+            print ("sorry, I don't know that teacher at Kearsarge.")
+        
+    return word  
+    
+def getGrade(prompt, debug = False):
+    if debug: print("getTeacher Function")
+    
+    goodInput = False
+    
+    grades = ["a",
+              "a-",
+              "a+"
+              "b",
+              "b-",
+              "b+",
+              "c",
+              "c-",
+              "c+",
+              "d",
+              "d-",
+              "d+",
+              "f"
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print("\n")
+            print ("don't use language like that")
+        elif word.lower() not in grades:
+            goodInput= False
+            print("\n")
+            print ("sorry, I don't know that Grade.")
+        
+    return word  
+    
 def getAnimal(prompt, debug = False):
     if debug: print("getAnimal Function")
     
     goodInput = False
     
-    Animal = ["soccer",
-              "football",
-              "hockey",
-              "wrestling",
-              "field hockey",
-              "skiing",
-              "nordic"]
+    Animal = ["dog",
+             "cat",
+             "cow",
+             "frog",
+             "toad",
+             "bear",
+             "peacock",
+             "fish",
+             "penguin",
+             "owl",
+             "fox",
+             "goose",
+             "lion",
+             "llama",
+             "pig",
+             "kyle",
+             "turtle",
+             "",
+             "",
+             
+             
+             
+             
+             
+        
+    ]
     
     while not goodInput:
         word = input(prompt)
@@ -151,15 +242,41 @@ swearList =["poop",
             "fag",
             "fucktard",
             "bitch ass hoe",
-            "bitch-ass-hoe",
-            "bitch",
+            "puurrpdrank",
+            "kyle goodwin",
+            "anus",
+            "foreskin",
+            "nigger",
+            "penis",
+            "vagina",
+            "poopybutt",
+            "cuck",
+            "cock",
+            "dick",
+            "shlong",
+            "nutsack",
+            "wank",
+            "wanker",
+            "fagtard",
+            "retard", 
             "ass",
             "hoe",
             "asshat",
             "dick",
             "dickhead",
             "fortnite",
-            "puurrpdrank"]
+            "puurrpdrank",
+            "niggerfaggot",
+            "eat my ass",
+            "fuck you",
+            "fuck me",
+            "cum",
+            "boner",
+            "pussy",
+            "porn",
+            "cunt",
+            "dildo",
+            "hairy balls"]
 
 
 def getRockInstrument(prompt, debug = False):
