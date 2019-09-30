@@ -9,6 +9,8 @@ def Story1(debug = False):
     sport1 = getSport("Enter a sport ", debug)
     Place1= getPlace("enter a place (proper noun) ")
     animal1 = getAnimal("enter an animal ")
+    Teacher1 = getTeacher("enter a teachers name ")
+    grade1 = getGrade ("enter a grade A-F")
     
     out = "\n"
     out += "\n"
@@ -16,16 +18,21 @@ def Story1(debug = False):
     out+= " Were out playing " + sport1 
     out+= ". "
     out+= "\n"
+    
     out += "Me and my homie cuh, " + friendName1
     out+= " went to " + Place1 
     out += " to play" + sport1
     out += ". "
     out += "\n"
+    
     out += "while we were playing" + sport1
     out += " we saw a" +animal1
     out += " walking near" + Place1
     out += ". "
     out += "\n"
+    
+    out += "Then, " + Teacher1
+    out =+ " walked up to you and told you you got a" + grade1
     
     
     

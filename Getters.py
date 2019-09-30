@@ -95,6 +95,64 @@ def getSport(prompt, debug = False):
         
     return word  
     
+def getTeacher(prompt, debug = False):
+    if debug: print("getTeacher Function")
+    
+    goodInput = False
+    
+    teachers = ["mrs. hill",
+                "mr. spooner",
+                ""
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print("\n")
+            print ("don't use language like that")
+        elif word.lower() not in teachers:
+            goodInput= False
+            print("\n")
+            print ("sorry, I don't know that teacher at Kearsarge.")
+        
+    return word  
+    
+def getGrade(prompt, debug = False):
+    if debug: print("getTeacher Function")
+    
+    goodInput = False
+    
+    grades = ["a",
+              "a-",
+              "a+"
+              "b",
+              "b-",
+              "b+",
+              "c",
+              "c-",
+              "c+",
+              "d",
+              "d-",
+              "d+",
+              "f"
+    ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print("\n")
+            print ("don't use language like that")
+        elif word.lower() not in teachers:
+            goodInput= False
+            print("\n")
+            print ("sorry, I don't know that Grade.")
+        
+    return word  
+    
 def getAnimal(prompt, debug = False):
     if debug: print("getAnimal Function")
     
