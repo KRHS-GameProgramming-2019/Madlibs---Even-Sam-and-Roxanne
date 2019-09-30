@@ -21,18 +21,24 @@ def Story1(debug = False):
     
     out += "Me and my homie cuh, " + friendName1
     out+= " went to " + Place1 
-    out += " to play" + sport1
+    out += " to play " + sport1
     out += ". "
     out += "\n"
     
-    out += "while we were playing" + sport1
-    out += " we saw a" +animal1
-    out += " walking near" + Place1
+    out += "while we were playing " + sport1
+    out += " we saw a " +animal1
+    out += " walking near " + Place1
     out += ". "
     out += "\n"
     
     out += "Then, " + Teacher1
-    out =+ " walked up to you and told you you got a" + grade1
+    out += " walked up to you and told you you got a " + grade1
+    out += " in the class and you cried because it was such a bad grade"
+    out += ". "
+    out +="\n"
+    
+    out += "Finnaly, you left " + Place1
+    out += " and went home."
     
     
     
