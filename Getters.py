@@ -172,9 +172,9 @@ def getAnimal(prompt, debug = False):
              "goose",
              "lion",
              "llama",
-             "",
-             "",
-             "",
+             "pig",
+             "kyle",
+             "turtle",
              "",
              "",
              
