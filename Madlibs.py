@@ -2,6 +2,7 @@ from Screens import *
 from Getters import *
 from Story1 import *
 from Story2 import *
+from Story3 import *
 
 
 
@@ -30,6 +31,11 @@ def Madlibs (debug = False):
             print("\n") 
             input("press enter to continue")
             
+        elif choice == "3":
+            print(Story3())
+            print("\n")
+            input("press enter to continue")    
+        
         elif choice == "unicorn":
             print("You have found my magical land")
             input("press enter to continue")

@@ -29,6 +29,14 @@ def getMenuOption(debug = False):
              option == "story two"):
                 option = "2"
                 goodInput = True
+        
+        elif (option == "3" or
+            option == "story 3" or
+            option == "story3" or 
+            option == "three" or
+            option == "story three"):
+                option = "3"
+                goodInput = True
                 
                 
         elif (option == "u"):
@@ -131,8 +139,10 @@ def isSwear (word, debug = False):
 
 
 
-swearList =[ "poop",
+swearList =["poop",
             "pee",
+            "dipshit",
+            "bullshit",
             "shit",
             "fuck",
             "lolfap",
@@ -141,24 +151,52 @@ swearList =[ "poop",
             "fag",
             "fucktard",
             "bitch ass hoe",
-            "puurrpdrank"
-            
-]
+            "bitch-ass-hoe",
+            "bitch",
+            "ass",
+            "hoe",
+            "asshat",
+            "dick",
+            "dickhead",
+            "fortnite",
+            "puurrpdrank"]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def getRockInstrument(prompt, debug = False):
+    if debug: print("getRockInstrument Function")
+    
+    goodInput = False
+    
+    RockInstrument = ["stratocaster",
+                      "telecaster",
+                      "precision bass",
+                      "p bass",
+                      "p-bass",
+                      "jazz bass",
+                      "j bass",
+                      "j-bass",
+                      "les paul",
+                      "guitar",
+                      "bass",
+                      "bass guitar",
+                      "keyboard",
+                      "piano",
+                      "grand piano",
+                      "synthesizer",
+                      "rock organ",
+                      "drum kit",
+                      "drum set"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print("\n")
+            print ("don't use language like that")
+        elif word.lower() not in RockInstrument:
+            goodInput= False
+            print("\n")
+            print ("Instrument not recognized. Please input another instrument.")
+        
+    return word  
