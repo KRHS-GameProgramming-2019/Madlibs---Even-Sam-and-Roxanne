@@ -5,12 +5,13 @@ def Story1(debug = False):
     if debug: print("Story1 Function") 
 
     print("\n")
-    friendName1 = getWord("Enter a name ", debug)
-    sport1 = getSport("Enter a sport ", debug)
-    Place1= getPlace("enter a place (proper noun) ", debug)
-    animal1 = getAnimal("enter an animal ", debug)
-    Teacher1 = getTeacher("enter a teachers name ", debug)
+    friendName1 = getWord("Enter a name: ", debug)
+    sport1 = getSport("Enter a sport: ", debug)
+    Place1= getPlace("enter a place (proper noun): ", debug)
+    animal1 = getAnimal("enter an animal: ", debug)
+    Teacher1 = getTeacher("enter a teachers name: ", debug)
     grade1 = getGrade ("enter a grade A-F: ", debug)
+    food1 = getWord("Enter you favorite food ", debug)
     
     out = "\n"
     out += "\n"
@@ -37,8 +38,10 @@ def Story1(debug = False):
     out += ". "
     out +="\n"
     
-    out += "Finnaly, you left " + Place1
+    out += "Finally, you left " + Place1
     out += " and went home."
+    
+    out += "once you get home, you eat " + food1 
     
     
     
