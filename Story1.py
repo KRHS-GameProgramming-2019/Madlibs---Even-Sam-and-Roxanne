@@ -7,10 +7,10 @@ def Story1(debug = False):
     print("\n")
     friendName1 = getWord("Enter a name ", debug)
     sport1 = getSport("Enter a sport ", debug)
-    Place1= getPlace("enter a place (proper noun) ")
-    animal1 = getAnimal("enter an animal ")
-    Teacher1 = getTeacher("enter a teachers name ")
-    grade1 = getGrade ("enter a grade A-F: ")
+    Place1= getPlace("enter a place (proper noun) ", debug)
+    animal1 = getAnimal("enter an animal ", debug)
+    Teacher1 = getTeacher("enter a teachers name ", debug)
+    grade1 = getGrade ("enter a grade A-F: ", debug)
     
     out = "\n"
     out += "\n"
