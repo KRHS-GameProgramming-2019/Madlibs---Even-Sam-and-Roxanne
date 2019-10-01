@@ -5,7 +5,7 @@ def Story2(debug = False):
     
     print("\n")
     Teacher1 = getTeacher("enter a teachers name ")
-    grade1 = getGrade ("enter a grade A-F: ")
+    grade1 = getGrade ("what is your dreeam grade? ")
     
     
     
@@ -13,6 +13,7 @@ def Story2(debug = False):
     out += "\n"
     
     out+= " Once upon a time, you didn't go to Kearsarge, and you never had" + Teacher1 + " as a teacher." + "\n" 
+    out+= "in this world every grade you get was a" + getGrade
     
     
     

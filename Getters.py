@@ -150,6 +150,11 @@ def getGrade(prompt, debug = False):
     goodInput = False
     
     grades = ["a",
+              "a+",
+              "a++",
+              "a+++",
+              "a++++",
+              "a+++++",
               "a- ",
               "a+"
               "b",
