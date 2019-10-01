@@ -19,7 +19,7 @@ def Story1(debug = False):
     out+= ". "
     out+= "\n"
     
-    out += "Me and my homie cuh, " + friendName1
+    out += "Me and my homie, " + friendName1
     out+= " went to " + Place1 
     out += " to play " + sport1
     out += ". "

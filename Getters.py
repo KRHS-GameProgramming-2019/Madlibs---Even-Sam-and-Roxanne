@@ -110,7 +110,7 @@ def getTeacher(prompt, debug = False):
     
     teachers = ["mrs. hill",
                 "mr. spooner",
-                "mrs. Ellis",
+                "mrs. ellis",
                 "mrs. hall",
                 "mrs. valerio",
                 "mr. anderson",
@@ -118,13 +118,16 @@ def getTeacher(prompt, debug = False):
                 "mr. selby",
                 "mrs. dwyer",
                 "mr. girard",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
+                "mrs.hill",
+                "mr.spooner",
+                "mrs.ellis",
+                "mrs.hall",
+                "mrs.valerio",
+                "mr.anderson",
+                "mrs.skov",
+                "mr.selby",
+                "mrs.dwyer",
+                "mr.girard",
     ]
     
     while not goodInput:
