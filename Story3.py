@@ -1,4 +1,4 @@
-#Sam "Pink" Lloyd
+#Sam Lloyd
 from Getters import *
 
 def Story3(debug = False):

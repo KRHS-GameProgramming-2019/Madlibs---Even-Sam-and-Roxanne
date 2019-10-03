@@ -1,3 +1,4 @@
+#Sam Lloyd
 from Getters import *
 
 def Story4(debug = False):
@@ -7,23 +8,24 @@ def Story4(debug = False):
     personName = getWord ("Enter the name of a person (or 'I' if referring to yourself): ", debug)
     videoGame1 = getWord ("Enter the name of a really hard video game: ", debug)
     videoGame2 = getWord ("Enter the name of another really hard video game: ", debug)
-    nonGamingDevice = getWord ("Enter the name of a non-gaming device: ", debug)
+    nonGamingDevice1 = getWord ("Enter the name of a non-gaming item: ", debug)
+    gamingDevice1 = getWord ("What is used to control these games? If more than one answer, choose your personal preference: ", debug)
     instrument1 = getRockInstrument ("Enter the name of a rock instrument: ", debug)
-    amountTime1 = getWord ("Enter an amount of time: ", debug)
-    amountTime1 = getWord ("Enter a shorter amount of time: ", debug)
     
     out = "\n" 
     out += "\n"
     out += "One day, " + personName
-    out += " played and beat " + videoGame2
-    out += " in " + amountTime1
-    out += ". However, " +personName
-    out += " thought that this wasn't an impressive enough feat, and later played and beat " + videoGame2
-    out += " in " + amountTime2
-    out += ". Only then could " + personName
-    out += " rest easy knowing that the (quite literally) impossible task of beating " + videoGame2
-    out += " with a " + instrument1
-    out += " was completed."
+    out += " tried to beat " + videoGame2
+    out += " using a " + nonGamingDevice1
+    out += ". " +personName
+    out += " was unsucsessful and decided that it would be worth a try to play " + videoGame2
+    out += " using a " + instrument1
+    out += ". However, " + personName
+    out += " ended up destryoing the " + instrument1 
+    out += " after losing the final boss level, effectively ruining the play. " + personName
+    out += " gave up out of anger and decided to play the games how they were meant to be played: using a " + gamingDevice1
+    out += "."
+    
     
     return out
    
