@@ -35,13 +35,15 @@ def Madlibs (debug = False):
             print(Story3())
             print("\n")
             input("press enter to continue")    
-        
+            
+        elif choice == "kyle":
+            print("Kyle is a snakey snake")
+            import snake 
+            
         elif choice == "unicorn":
-            print("You have found my magical land")
-            input("press enter to continue")
-            
-            
-            
+            print("\n Unicorn")
+            import Unicorn
+Madlibs()
 
 
 

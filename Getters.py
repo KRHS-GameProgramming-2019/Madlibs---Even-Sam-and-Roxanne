@@ -39,10 +39,14 @@ def getMenuOption(debug = False):
                 goodInput = True
                 
                 
-        elif (option == "u"):
+        elif (option == "unicorn"):
                 option = "unicorn"
                 goodInput = True
             
+            
+        elif (option == "kyle"):
+                option = "kyle"
+                goodInput = True
         else:
             print ("please make a valid choice: ")
             
@@ -284,7 +288,7 @@ swearList =["poop",
             "porn",
             "cunt",
             "dildo",
-            "hairy balls"]
+            ]
 
 
 def getRockInstrument(prompt, debug = False):
