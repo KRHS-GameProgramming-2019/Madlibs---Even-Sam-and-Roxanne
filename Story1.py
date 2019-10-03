@@ -1,4 +1,4 @@
-#Evan + Annie + Sam 
+#Evan
 from Getters import *
 
 def Story1(debug = False):
@@ -12,6 +12,7 @@ def Story1(debug = False):
     Teacher1 = getTeacher("enter a teachers name: ", debug)
     grade1 = getGrade ("enter a grade A-F: ", debug)
     food1 = getWord("Enter you favorite food ", debug)
+    noun1= getWord("enter where you would hate tom sleep", debug)
     
     out = "\n"
     out += "\n"
@@ -42,6 +43,7 @@ def Story1(debug = False):
     out += " and went home."
     
     out += "once you get home, you eat " + food1 
+    out += "after that you sleep on a " + noun1
     
     
     
