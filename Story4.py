@@ -16,15 +16,13 @@ def Story4(debug = False):
     out += "\n"
     out += "One day, " + personName
     out += " tried to beat " + videoGame2
-    out += " using a " + nonGamingDevice1
-    out += ". " +personName
-    out += " was unsucsessful and decided that it would be worth a try to play " + videoGame2
-    out += " using a " + instrument1
+    out += " using a " + nonGamingDevice1 
+    out += ". " + personName + " was unsucsessful and decided that it would be worth a try to play " + videoGame2 + " using a " + instrument1
     out += ". However, " + personName
     out += " ended up destryoing the " + instrument1 
     out += " after losing the final boss level, effectively ruining the play. " + personName
     out += " gave up out of anger and decided to play the games how they were meant to be played: using a " + gamingDevice1
-    out += "."
+    out += ".\n"
     
     
     return out
