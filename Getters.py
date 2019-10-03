@@ -46,6 +46,14 @@ def getMenuOption(debug = False):
                 option = "4"
                 goodInput = True
                 
+        elif (option == "secret menu" or
+            option == "secretmenu" or
+            option == "sm" or
+            option == "sam easter egg" or
+            option == "easter egg" or
+            option == "ee"):
+                option = "ee"
+                goodInput = True
                 
         elif (option == "u"):
                 option = "unicorn"

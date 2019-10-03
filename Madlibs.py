@@ -3,7 +3,8 @@ from Getters import *
 from Story1 import *
 from Story2 import *
 from Story3 import *
-#from Story4 import *
+from Story4 import *
+from SamEasterEgg import *
 
 
 
@@ -45,6 +46,11 @@ def Madlibs (debug = False):
         elif choice == "unicorn":
             print("You have found my magical land")
             input("press enter to continue")
+            
+        elif choice == "ee":
+            print(SamEasterEgg())
+            print("\n")
+            input("01110000 01110010 01100101 01110011 01110011 00100000 01100101 01101110 01110100 01100101 01110010 00100000 01110100 01101111 00100000 01100011 01101111 01101110 01110100 01101001 01101110 01110101 01100101")
             
             
             
