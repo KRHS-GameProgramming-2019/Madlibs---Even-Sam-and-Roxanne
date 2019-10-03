@@ -14,8 +14,8 @@ def TitleScreen(debug = False):
     s += "|       Chambers            Sidmore                  Lloyd             |\n"
     s += "|                                                                      |\n"
     s += "|                                                                      |\n"
-    s += "|                New! Find all the eggs!                               |\n"
     s += "|                                                                      |\n"
+    s += "|                New! Find all the eggs!                               |\n"
     s += "|                                                                      |\n"
     s += "------------------------------------------------------------------------\n"
     
