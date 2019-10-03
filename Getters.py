@@ -38,6 +38,14 @@ def getMenuOption(debug = False):
                 option = "3"
                 goodInput = True
                 
+        elif (option == "4" or
+            option == "story 4" or
+            option == "story4" or
+            option == "four" or
+            option == "story four"):
+                option = "4"
+                goodInput = True
+                
                 
         elif (option == "unicorn"):
                 option = "unicorn"
@@ -329,3 +337,4 @@ def getRockInstrument(prompt, debug = False):
             print ("Instrument not recognized. Please input another instrument.")
         
     return word  
+

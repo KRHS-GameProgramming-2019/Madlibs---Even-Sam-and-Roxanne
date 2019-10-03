@@ -3,6 +3,7 @@ from Getters import *
 from Story1 import *
 from Story2 import *
 from Story3 import *
+from Story4 import *
 
 
 
@@ -34,15 +35,25 @@ def Madlibs (debug = False):
         elif choice == "3":
             print(Story3())
             print("\n")
-            input("press enter to continue")    
+            input("press enter to continue")
             
+        elif choice == "4":
+            print(Story4())
+            print("\n")
+            input("press enter to continue")
+ 
         elif choice == "kyle":
             print("Kyle is a snakey snake")
             import snake 
             
         elif choice == "unicorn":
             print("\n Unicorn")
+            print("You have found my magical land")
             import Unicorn
+            input("press enter to continue")
+            
+            
+            
 Madlibs()
 
 
