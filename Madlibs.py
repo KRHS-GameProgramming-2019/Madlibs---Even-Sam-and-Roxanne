@@ -42,9 +42,15 @@ def Madlibs (debug = False):
             print(Story4())
             print("\n")
             input("press enter to continue")
-        
+ 
+        elif choice == "kyle":
+            print("Kyle is a snakey snake")
+            import snake 
+            
         elif choice == "unicorn":
+            print("\n Unicorn")
             print("You have found my magical land")
+            import Unicorn
             input("press enter to continue")
             
         elif choice == "ee":
@@ -54,6 +60,7 @@ def Madlibs (debug = False):
             
             
             
+Madlibs()
 
 
 
