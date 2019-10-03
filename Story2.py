@@ -1,3 +1,4 @@
+#Annie
 from Getters import *
 
 def Story2(debug = False):
@@ -18,7 +19,7 @@ def Story2(debug = False):
     out+= " Once upon a time, you didn't go to Kearsarge, and you never had" + Teacher1 + " as a teacher." + "\n" 
     out+= "in this world every grade you get was a" + grade1 + "and you lived a happy life." + "\n"
     out+= "You live in " + DreamHome + " and you can eat as much " + dreamFood + " as you want." + "\n"
-    out+= "But, then you woke up, and your average grade was " + grade2 + "{"
+    out+= "But, then you woke up, and your average grade was " + grade2 + 
     
     
     
