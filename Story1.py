@@ -12,7 +12,7 @@ def Story1(debug = False):
     Teacher1 = getTeacher("enter a teachers name: ", debug)
     grade1 = getGrade ("enter a grade A-F: ", debug)
     food1 = getWord("Enter you favorite food ", debug)
-    noun1= getWord("enter where you would like to sleep", debug)
+    noun1= getWord("enter where you would hate to sleep", debug)
     
     out = "\n"
     out += "\n"
