@@ -4,6 +4,7 @@ from Story1 import *
 from Story2 import *
 from Story3 import *
 from Story4 import *
+from Group_Story import *
 from SamEasterEgg import *
 
 
@@ -40,6 +41,11 @@ def Madlibs (debug = False):
             
         elif choice == "4":
             print(Story4())
+            print("\n")
+            input("press enter to continue")
+            
+         elif choice == "5":
+            print(Story5())
             print("\n")
             input("press enter to continue")
  

@@ -46,6 +46,16 @@ def getMenuOption(debug = False):
                 option = "4"
                 goodInput = True
                 
+        elif (option == "5" or
+            option == "story 5" or
+            option == "story5" or
+            option == "five" or
+            option == "group" or
+            option == "group story" or
+            option == "story five"):
+                option = "5"
+                goodInput = True
+                
         elif (option == "secret menu" or
             option == "secretmenu" or
             option == "sm" or
