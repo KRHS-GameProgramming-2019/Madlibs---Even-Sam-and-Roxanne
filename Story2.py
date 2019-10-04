@@ -22,6 +22,7 @@ def Story2(debug = False):
     out+= "You live in " + DreamHome + " and you can eat as much " + dreamFood + " as you want." + ("\n")
     out+= "But, then you woke up, and your average grade was " + grade2 + " and you live in" + realtown + ("\n")
     out+= "Yet, at the end of the day you are still eating" + dreamFood + ", YAY." + "\n"
+    out+=
     
     
     
