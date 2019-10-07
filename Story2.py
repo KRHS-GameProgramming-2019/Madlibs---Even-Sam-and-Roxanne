@@ -1,4 +1,3 @@
-#Annie
 from Getters import *
 
 def Story2(debug = False):

@@ -353,6 +353,68 @@ def getRockInstrument(prompt, debug = False):
             goodInput= False
             print("\n")
             print ("Instrument not recognized. Please input another instrument.")
+            
+def getDeviceName1(prompt, debug = False):
+    if debug: print("getDeviceName1 Function")
+    
+    goodInput = False
+    
+    devices = ["Atari 2600",
+               "nes",
+               "nintendo entertainment system",
+               "sega master system",
+               "sega genesis"
+               "sega master drive"
+               "snes",
+               "super nintendo entertainment system",
+               "sega dreamcast",
+               "dreamcast",
+               "nintendo 64",
+               "playstation",
+               "playstation 1",
+               "ps1",
+               "playstation 2",
+               "ps2",
+               "gamecube",
+               "nintendo gamecube",
+               "xbox",
+               "xbox original",
+               "playstation 3",
+               "ps3",
+               "xbox 360",
+               "wii",
+               "nintendo wii",
+               "xbox one",
+               "playstation 4",
+               "ps4",
+               "wii u",
+               "nintendo wii u",
+               "switch",
+               "nintendo switch",
+               "gameboy",
+               "nintendo gameboy",
+               "psp",
+               "playstation portable",
+               "psvita",
+               "playstation vita",
+               "ds",
+               "nintendo ds",
+               "nintendo 3ds",
+               "3ds"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print("\n")
+            print ("don't use language like that")
+        elif word.lower() not in sports:
+            goodInput= False
+            print("\n")
+            print ("sorry, I don't know that sport.")
+        
+    return word  
         
     return word  
 
