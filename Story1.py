@@ -1,4 +1,3 @@
-#Evan
 from Getters import *
 
 def Story1(debug = False):
