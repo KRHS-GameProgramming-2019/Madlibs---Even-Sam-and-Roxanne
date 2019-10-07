@@ -1,4 +1,4 @@
-#Sam Lloyd
+#Group story
 from Getters import *
 
 def Story3(debug = False):
