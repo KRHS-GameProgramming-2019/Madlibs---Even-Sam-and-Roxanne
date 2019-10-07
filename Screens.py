@@ -36,7 +36,6 @@ def MainMenu(debug = False):
     s += "|                                                                      |\n"
     s += "|   4.) story 4                                                        |\n"
     s += "|                                                                      |\n"
-    s += "|   5.) story 5                                                        |\n"
     s += "|                                                                      |\n"
     s += "|   q.) quit                                                           |\n"
     s += "|                                                                      |\n"
