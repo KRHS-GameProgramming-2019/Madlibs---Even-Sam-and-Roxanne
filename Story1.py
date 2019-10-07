@@ -44,7 +44,7 @@ def Story1(debug = False):
     out += " and went home."
     
     out += "once you get home, you eat " + food1 
-    out += "after that you sleep on a " + noun1
+    out += "after that you sleep on a " + noun1 + ". \n"
     
     
     
