@@ -26,7 +26,7 @@ def Story3(debug = False):
     out += ", and " + friendName2
     out += " got nothing. \n"
     out += "But, you couldn't get " + instrument1 + " because you had a " + grade1 + " in band. \n"
-    out += "The music store knew your grade, because " + teacher1 + " told " + musicStore1 ". \n"
+    out += "The music store knew your grade, because " + teacher1 + " told " + musicStore1 + ". \n"
     out += "Because you couldnt get " + instrument1 + " your friends, " + friendName2 + " and " + friendName1 + " left you alone. \n"
     out += "Your friends, then left you and started a band named" + bandName1 + " and became famous. \n"
     
