@@ -353,6 +353,7 @@ def getRockInstrument(prompt, debug = False):
             goodInput= False
             print("\n")
             print ("Instrument not recognized. Please input another instrument.")
+    return word
             
 def getDeviceName1(prompt, debug = False):
     if debug: print("getDeviceName1 Function")
@@ -400,7 +401,13 @@ def getDeviceName1(prompt, debug = False):
                "ds",
                "nintendo ds",
                "nintendo 3ds",
-               "3ds"]
+               "3ds",
+               "pc",
+               "gaming pc",
+               "mac",
+               "macintosh",
+               "imac",
+               "macbook"]
     
     while not goodInput:
         word = input(prompt)
@@ -409,10 +416,10 @@ def getDeviceName1(prompt, debug = False):
             goodInput= False
             print("\n")
             print ("don't use language like that")
-        elif word.lower() not in sports:
+        elif word.lower() not in devices:
             goodInput= False
             print("\n")
-            print ("sorry, I don't know that sport.")
+            print ("Gaming device not recognized. Please input another device.")
         
     return word  
         

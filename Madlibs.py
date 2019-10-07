@@ -44,7 +44,7 @@ def Madlibs (debug = False):
             print("\n")
             input("press enter to continue")
             
-         elif choice == "5":
+        elif choice == "5":
             print(Story5())
             print("\n")
             input("press enter to continue")
