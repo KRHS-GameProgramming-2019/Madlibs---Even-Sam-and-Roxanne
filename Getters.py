@@ -92,7 +92,9 @@ def getWord(prompt, debug = False):
         
     return word  
     
+
 def getPlace(prompt, debug = False):
+    #Annie
     if debug: print("getMenuOption Function")
     
     goodInput = False
@@ -108,7 +110,7 @@ def getPlace(prompt, debug = False):
     
 def getSport(prompt, debug = False):
     if debug: print("getSport Function")
-    
+    #Evan
     goodInput = False
     
     sports = ["soccer",
@@ -135,7 +137,7 @@ def getSport(prompt, debug = False):
     
 def getTeacher(prompt, debug = False):
     if debug: print("getTeacher Function")
-    
+    #Evan
     goodInput = False
     
     teachers = ["mrs. hill",
@@ -175,6 +177,7 @@ def getTeacher(prompt, debug = False):
     return word  
     
 def getGrade(prompt, debug = False):
+    #Annie
     if debug: print("getTeacher Function")
     
     goodInput = False
@@ -215,7 +218,7 @@ def getGrade(prompt, debug = False):
     
 def getAnimal(prompt, debug = False):
     if debug: print("getAnimal Function")
-    
+    #Evan
     goodInput = False
     
     Animal = ["dog",
@@ -260,6 +263,7 @@ def getAnimal(prompt, debug = False):
     return word  
 
 def isSwear (word, debug = False):
+    #evan
     if debug: print("isSwear Function")
     if word.lower() in swearList :
         return True
