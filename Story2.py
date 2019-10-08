@@ -10,10 +10,10 @@ def Story2(debug = False):
     DreamHome = getWord("Where do you wish to live? ", debug)
     dreamFood = getWord("What is your favorite food? ", debug)
     realtown = getWord("where do you live? ", debug)
-    verb1 = getWord("say a verb (action, past tense)", debug)
-    injury1 = getWord("say an injury you would get" , debug)
+    verb1 = getWord("say a verb (action, past tense) ", debug)
+    injury1 = getWord("say an injury you would get " , debug)
     
-    
+
     
     out = "\n"
     out += "\n"
