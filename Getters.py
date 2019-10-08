@@ -139,7 +139,7 @@ def getTeacher(prompt, debug = False):
     if debug: print("getTeacher Function")
     #Evan
     goodInput = False
-    
+    # ~ Evan
     teachers = ["mrs. hill",
                 "mrs hill",
                 "ms hill",
@@ -248,7 +248,7 @@ def getAnimal(prompt, debug = False):
     if debug: print("getAnimal Function")
     #Evan
     goodInput = False
-    
+    # ~ Evan
     Animal = ["dog",
              "cat",
              "cow",
@@ -266,9 +266,7 @@ def getAnimal(prompt, debug = False):
              "pig",
              "kyle",
              "turtle",
-             "",
-             "",
-             
+           
              
              
              
@@ -299,7 +297,7 @@ def isSwear (word, debug = False):
         return False
 
 
-
+# ~ Evan
 swearList =["poop",
             "pee",
             "dipshit",
@@ -350,6 +348,7 @@ swearList =["poop",
 
 
 def getRockInstrument(prompt, debug = False):
+    #Sam
     if debug: print("getRockInstrument Function")
     
     goodInput = False
@@ -388,6 +387,7 @@ def getRockInstrument(prompt, debug = False):
     return word
             
 def getDeviceName1(prompt, debug = False):
+    #Sam
     if debug: print("getDeviceName1 Function")
     
     goodInput = False

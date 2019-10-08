@@ -8,12 +8,12 @@ def Story1(debug = False):
     print("\n")
     friendName1 = getWord("Enter a name: ", debug)
     sport1 = getSport("Enter a sport: ", debug)
-    Place1= getPlace("enter a place (proper noun): ", debug)
-    animal1 = getAnimal("enter an animal: ", debug)
-    Teacher1 = getTeacher("enter a teachers name: ", debug)
-    grade1 = getGrade ("enter a grade A-F: ", debug)
-    food1 = getWord("Enter you favorite food ", debug)
-    noun1= getWord("enter where you would hate to sleep", debug)
+    Place1= getPlace("Enter a place (proper noun): ", debug)
+    animal1 = getAnimal("Enter an animal: ", debug)
+    Teacher1 = getTeacher("Enter a teachers name: ", debug)
+    grade1 = getGrade ("Enter a grade A-F: ", debug)
+    food1 = getWord("Enter you favorite food: ", debug)
+    noun1= getWord("Enter where you would hate to sleep: ", debug)
     
     out = "\n"
     out += "\n"
@@ -35,22 +35,18 @@ def Story1(debug = False):
     out += "\n"
     
     out += "Then, " + Teacher1
-    out += " walked up to you and told you you got a " + grade1
+    out += " walked up to you and told you, you got a " + grade1
     out += " in the class and you cried because it was such a bad grade"
     out += ". "
     out +="\n"
     
     out += "Finally, you left " + Place1
-    out += " and went home."
+    out += " and went home. "
     
-    out += "once you get home, you eat " + food1 
-    out += "after that you sleep on a " + noun1 + ". \n"
+    out += "Once you get home, you eat " + food1 
+    out += " after that you sleep on a " + noun1 + ". \n"
     
     
     
     
     return out 
-
-
-
- 
