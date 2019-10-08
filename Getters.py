@@ -139,16 +139,40 @@ def getTeacher(prompt, debug = False):
     goodInput = False
     
     teachers = ["mrs. hill",
+                "mrs hill",
+                "ms hill",
+                "ms. hill",
+                "hill",
                 "mr. spooner",
+                "mr spooner",
+                "spooner",
                 "mrs. ellis",
+                "mrs ellis",
+                "ms ellis",
+                "ellis",
                 "mrs. hall",
+                "mrs hall",
+                "ms hall",
+                "hall",
                 "mrs. valerio",
+                "mrs valerio",
+                "ms valerio",
+                "valerio",
                 "mr. anderson",
+                "mr anderson",
+                "anderson",
                 "mrs. skov",
+                "mrs skov",
+                "ms skov",
                 "mr. selby",
+                "mr selby",
+                "selby",
                 "mrs. dwyer",
+                "mrs dwyer",
+                "dwyer",
                 "mr. girard",
-                "mrs.hill",
+                "mr girard",
+                "girard"
                 "mr.spooner",
                 "mrs.ellis",
                 "mrs.hall",
@@ -196,8 +220,12 @@ def getGrade(prompt, debug = False):
               "d",
               "d-",
               "d+",
-              "f"
-    ]
+              "f",
+              "pd",
+              "p",
+              "bp",
+              "i",
+              "n"]
     
     while not goodInput:
         word = input(prompt)
