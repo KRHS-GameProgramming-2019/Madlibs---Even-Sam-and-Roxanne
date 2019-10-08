@@ -348,6 +348,7 @@ swearList =["poop",
 
 
 def getRockInstrument(prompt, debug = False):
+    #Sam
     if debug: print("getRockInstrument Function")
     
     goodInput = False
@@ -386,6 +387,7 @@ def getRockInstrument(prompt, debug = False):
     return word
             
 def getDeviceName1(prompt, debug = False):
+    #Sam
     if debug: print("getDeviceName1 Function")
     
     goodInput = False
