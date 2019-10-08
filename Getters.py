@@ -137,7 +137,7 @@ def getTeacher(prompt, debug = False):
     if debug: print("getTeacher Function")
     
     goodInput = False
-    
+    # ~ Evan
     teachers = ["mrs. hill",
                 "mr. spooner",
                 "mrs. ellis",
@@ -217,7 +217,7 @@ def getAnimal(prompt, debug = False):
     if debug: print("getAnimal Function")
     
     goodInput = False
-    
+    # ~ Evan
     Animal = ["dog",
              "cat",
              "cow",
@@ -235,9 +235,7 @@ def getAnimal(prompt, debug = False):
              "pig",
              "kyle",
              "turtle",
-             "",
-             "",
-             
+           
              
              
              
@@ -267,7 +265,7 @@ def isSwear (word, debug = False):
         return False
 
 
-
+# ~ Evan
 swearList =["poop",
             "pee",
             "dipshit",
