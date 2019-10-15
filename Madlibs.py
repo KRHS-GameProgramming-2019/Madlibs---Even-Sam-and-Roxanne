@@ -61,12 +61,11 @@ def Madlibs (debug = False):
             
             
             
-Madlibs()
+Madlibs(True)
 
 
 
 
 
 
-Madlibs (True)
 
